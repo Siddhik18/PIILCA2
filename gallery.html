@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the exclusive collection of Saint Laurent YSL Heels in our gallery. View stunning designs and luxurious craftsmanship.">
+    <title>Gallery - Saint Laurent YSL Heels</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>YSL Heels Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="gallery">
+            <img src="YSL6.png" alt="YSL Heels Black Edition" onclick="openModal('YSL6.png')">
+            <img src="YSL5.png" alt="YSL Heels Golden Edition" onclick="openModal('YSL5.png')">
+            <img src="YSL4.png" alt="YSL Heels Luxe Edition" onclick="openModal('YSL4.png')">
+            <img src="YSL2.png" alt="YSL Heels Classic Edition" onclick="openModal('YSL2.png')">
+            <img src="YSL3.png" alt="YSL Heels Modern Edition" onclick="openModal('YSL3.png')">
+            <img src="YSL7.png" alt="YSL Heels Modern Edition" onclick="openModal('YSL7.png')">
+        </section>
+
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImage">
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Saint Laurent | Designed for Elegance and Luxury</p>
+    </footer>
+</body>
+</html>
